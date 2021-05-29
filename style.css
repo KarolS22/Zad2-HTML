@@ -1,0 +1,56 @@
+#logo {
+    float: left;
+    height: 45px;
+    width: 100%;
+    background-color: black;
+}
+
+#menu {
+    float: left;
+    height: 45px;
+    width: 100%;
+    background-color: red;
+}
+
+#login {
+    float: left;
+    height: 45px;
+    width: 100%;
+    background-color: green;
+}
+
+#left {
+    float: left;
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+}
+
+#center {
+    float: left;
+    height: 300px;
+    width: calc(100% - 400px);
+    background-color: olive;
+}
+
+#right {
+    float: left;
+    height: 300px;
+    width: 200px;
+    background-color: coral;
+}
+
+.option {
+    float:left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px dotted #444444;
+    opacity: 0.8;
+}
+
+.option hover {
+    background-color: #000000;
+    cursor: pointer;
+}
